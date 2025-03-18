@@ -1,0 +1,1 @@
+INSERT INTO USER_CREDIT (payment_history_score, internal_credit_score) VALUES (80.5, 750.0);
