@@ -13,12 +13,6 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class CreditScoreConfig {
 
-    @Value("${slack.bot.api.key}")
-    private String SLACK_BOT_KEY;
-
-    @Value("${slack.team.id}")
-    private String SLACK_TEAM_ID;
-
     public static final String GET_USER_EXTERNAL_CREDIT = "getuserExternalCredit";
     public static final String GET_USER_INTERNAL_CREDIT = "getuserInternalCredit";
 
