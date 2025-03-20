@@ -155,6 +155,10 @@ Add Specific function to be called by MCP Server in your prompt.
                         The summary should be concise, clear, and actionable to help the credit team quickly understand what decision we have to take.
 ```
 
+## Slack Setup
+
+https://github.com/AVIMBU/slack-mcp-server
+
 ## Useful Links
 
 - [MCP](https://www.anthropic.com/news/model-context-protocol)
