@@ -157,5 +157,5 @@ Add Specific function to be called by MCP Server in your prompt.
 
 ## Useful Links
 
-[MCP](https://www.anthropic.com/news/model-context-protocol)
-[MCP Github Project](https://github.com/modelcontextprotocol)
+- [MCP](https://www.anthropic.com/news/model-context-protocol)
+- [MCP Github Project](https://github.com/modelcontextprotocol)
