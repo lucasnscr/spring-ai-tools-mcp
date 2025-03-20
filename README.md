@@ -147,7 +147,7 @@ spring-ai-mcp-server-webflux-spring-boot-starter - WebFlux-based SSE transport i
 Add Specific function to be called by MCP Server in your prompt.
 
 ``
- ## **4. Formatting for Slack:**
+    **4. Formatting for Slack:**
                            - Present the information in a structured and well-organized format
                            - Use **bold headings** (`*Decision and Recommendation*`)
                            - Post the summary to the **'#all-ai-agent-alerts'** Slack channel \t
