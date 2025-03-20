@@ -102,27 +102,27 @@ spring-ai-mcp-server-webflux-spring-boot-starter - WebFlux-based SSE transport i
 ## Project Setup
 
 **Dependency**
-'''
+``
 		<dependency>
 			<groupId>org.springframework.ai</groupId>
 			<artifactId>spring-ai-mcp-client-spring-boot-starter</artifactId>
 		</dependency>
-'''
+``
 
 **Bean Setup**
 
-'''
+``
     @Bean
     public ChatClient chatClient(ChatClient.Builder chatClientBuilder, ToolCallbackProvider tools) {
         return chatClientBuilder
                 .defaultTools(tools)
                 .build();
     }
-'''
+``
 
 **Config MCP Server File**
 
-'''
+``
 {
   "mcpServers": {
     "slack": {
@@ -142,18 +142,18 @@ spring-ai-mcp-server-webflux-spring-boot-starter - WebFlux-based SSE transport i
     }
   }
 }
-'''
+``
 
 Add Specific function to be called by MCP Server in your prompt.
 
-'''
+``
  ## **4. Formatting for Slack:**
                            - Present the information in a structured and well-organized format
                            - Use **bold headings** (`*Decision and Recommendation*`)
                            - Post the summary to the **'#all-ai-agent-alerts'** Slack channel \t
                           \s
                         The summary should be concise, clear, and actionable to help the credit team quickly understand what decision we have to take.
-'''
+``
 
 ## Useful Links
 
