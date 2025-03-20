@@ -36,8 +36,8 @@ Qwen 2.5 is an advanced language model developed by Alibaba Cloud, designed to h
 
 - **Community and Support:** As an open-source model, Qwen 2.5 benefits from an active community of developers, providing additional resources, support, and continuous updates, which is advantageous for organizations looking for robust and up-to-date AI solutions.
 
-[Qwen article](https://arxiv.org/abs/2412.15115)
-[Qwen Hugging Face Page](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct)
+- [Qwen article](https://arxiv.org/abs/2412.15115)
+- [Qwen Hugging Face Page](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct)
 
 ## What is MCP Protocol?
 
